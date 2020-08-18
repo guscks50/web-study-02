@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>서블릿 - doGet%doPost</title>
+<title>서블릿 - doGet&doPost</title>
 </head>
 <body>
 <from method="get" action="MethodServlet">
-	<input type="submt" value="get 방식으로 호출하기">
+	<input type="submit" value="get 방식으로 호출하기">
 	</from>
 	<br><br>
 	<from method="post" action="MethodServlet">
